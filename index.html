@@ -4,20 +4,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel = "stylesheet" type = "text/css" href = "index.css" />
+    <script src="index.js"></script>
 </head>
 <body>
+    
     <div class="container">
     <div class="frame">
             <form class="form-signup" action="" method="post" name="form">
                     <label for="fullname">Full name</label>
-                    <input class="form-styling" type="text" name="fullname" placeholder=""/>
+                    <input id="username" class="form-styling" type="text" name="fullname" placeholder=""/>
                     <label for="age">Age</label>
                     <input class="form-styling" type="text" name="age" placeholder=""/>
                     <label for="email">Email</label>
-                    <input class="form-styling" type="text" name="email" placeholder=""/>
+                    <input id="email" class="form-styling" type="email" name="email" placeholder=""/>
                     <label for="contact number">Contact number</label>
                     <input class="form-styling" type="text" name="contact number" placeholder=""/>
-                    <input class="button-styling" type="submit">
+                    <input class="button-styling" type="submit" onclick="printData()">
             </form>
     </div>
     </div>
