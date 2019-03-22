@@ -75,11 +75,8 @@ body {
     .frame{
     width:85vw;
     height:70vh;
-    top:0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:50vw;
-    margin-bottom:50vw;
-    }
+   }
   }
