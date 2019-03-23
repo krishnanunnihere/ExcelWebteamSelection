@@ -1,5 +1,5 @@
 
-function printData(){
+function showData(){
   let title = document.getElementById('username').value;
   let body = document.getElementById('email').value;
 
