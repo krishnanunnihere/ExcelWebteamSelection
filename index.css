@@ -1,9 +1,8 @@
 
-html, body * { box-sizing: border-box; font-family: 'Open Sans', sans-serif; }
-
 body {
     background-image:url("./background.png");
     background-size: cover;
+    font-family:'Noto Sans TC', sans-serif;
   }
   .container {
     width: 100%;
