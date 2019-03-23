@@ -1,7 +1,7 @@
 
 function printtData(){
   let title = document.getElementById('username').value;
-  let body = document.getElementById('comment').value;
+  let body = document.getElementById('email').value;
 
 	fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST', 
