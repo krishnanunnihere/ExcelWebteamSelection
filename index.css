@@ -90,6 +90,14 @@ body {
       justify-content: center;
       align-items: center;
      }
+     .form-styling
+     {
+       width: 90%;
+     }
+     .button-styling
+     {
+       margin-bottom:10px;
+     }
      label
      {
        margin-top:5%;
