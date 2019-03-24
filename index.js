@@ -1,7 +1,7 @@
 
 function showData(){
-  let title = document.getElementById('username').value;
-  let body = document.getElementById('email').value;
+  let title = document.getElementById('firstname').value;
+  let body = document.getElementById('lastname').value;
 
 	fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST', 
