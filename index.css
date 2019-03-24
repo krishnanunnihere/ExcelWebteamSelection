@@ -48,13 +48,15 @@ body {
   
     .form-styling 
     {
-      width: 100%;
+      width: 90%;
       height: 35px;
       padding-left: 15px;
       border: none;
       border-radius: 20px;
       margin-bottom: 20px;
       background: rgba(255,255,255,.2);
+      margin-left:5px;
+  
       
     }
     
